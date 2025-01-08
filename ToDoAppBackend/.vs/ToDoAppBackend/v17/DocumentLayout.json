@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ToDoAppCrud\\ToDoAppBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|d:\\todoappcrud\\todoappbackend\\todoappbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|solutionrelative:todoappbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|d:\\todoappcrud\\todoappbackend\\todoappbackend\\controllers\\todocontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|solutionrelative:todoappbackend\\controllers\\todocontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|d:\\todoappcrud\\todoappbackend\\todoappbackend\\models\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|solutionrelative:todoappbackend\\models\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|d:\\todoappcrud\\todoappbackend\\todoappbackend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|solutionrelative:todoappbackend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|d:\\todoappcrud\\todoappbackend\\todoappbackend\\models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|solutionrelative:todoappbackend\\models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|d:\\todoappcrud\\todoappbackend\\todoappbackend\\data\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|solutionrelative:todoappbackend\\data\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|d:\\todoappcrud\\todoappbackend\\todoappbackend\\todoappbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A8B130E-4AD9-4F0B-AB32-89976169948D}|ToDoAppBackend\\ToDoAppBackend.csproj|solutionrelative:todoappbackend\\todoappbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 363,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoController .cs",
+              "DocumentMoniker": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Controllers\\TodoController .cs",
+              "RelativeDocumentMoniker": "ToDoAppBackend\\Controllers\\TodoController .cs",
+              "ToolTip": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Controllers\\TodoController .cs",
+              "RelativeToolTip": "ToDoAppBackend\\Controllers\\TodoController .cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAF0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:08:00.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoList.cs",
+              "DocumentMoniker": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Models\\TodoList.cs",
+              "RelativeDocumentMoniker": "ToDoAppBackend\\Models\\TodoList.cs",
+              "ToolTip": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Models\\TodoList.cs",
+              "RelativeToolTip": "ToDoAppBackend\\Models\\TodoList.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T11:33:56.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ToDoAppBackend\\Models\\Category.cs",
+              "ToolTip": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Models\\Category.cs",
+              "RelativeToolTip": "ToDoAppBackend\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T11:34:26.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Program.cs",
+              "RelativeDocumentMoniker": "ToDoAppBackend\\Program.cs",
+              "ToolTip": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Program.cs",
+              "RelativeToolTip": "ToDoAppBackend\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T17:00:31.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Models\\Priority.cs",
+              "RelativeDocumentMoniker": "ToDoAppBackend\\Models\\Priority.cs",
+              "ToolTip": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Models\\Priority.cs",
+              "RelativeToolTip": "ToDoAppBackend\\Models\\Priority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T11:34:50.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ToDoAppBackend.csproj",
+              "DocumentMoniker": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\ToDoAppBackend.csproj",
+              "RelativeDocumentMoniker": "ToDoAppBackend\\ToDoAppBackend.csproj",
+              "ToolTip": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\ToDoAppBackend.csproj",
+              "RelativeToolTip": "ToDoAppBackend\\ToDoAppBackend.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-05T09:01:53.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToDoDbContext.cs",
+              "DocumentMoniker": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Data\\ToDoDbContext.cs",
+              "RelativeDocumentMoniker": "ToDoAppBackend\\Data\\ToDoDbContext.cs",
+              "ToolTip": "D:\\ToDoAppCrud\\ToDoAppBackend\\ToDoAppBackend\\Data\\ToDoDbContext.cs",
+              "RelativeToolTip": "ToDoAppBackend\\Data\\ToDoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T18:10:55.518Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
