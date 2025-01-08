@@ -6,6 +6,7 @@ function CreateEditPage() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  //to set form fields from previous location if edit page else empty fields if create page
   const [createData, setCreateDate] = useState(null);
   const [taskName, setTaskName] = useState(location.state?.taskName || "");
   const [selectedCategory, setSelectedCategory] = useState(
@@ -18,11 +19,13 @@ function CreateEditPage() {
     location.state?.isCompleted.toString() || "false"
   );
 
+  //to set errors
   const [taskNameError, setTaskNameError] = useState(false);
   const [categoryError, setCategoryError] = useState(false);
   const [priorityError, setPriorityError] = useState(false);
   const [statusError, setStatusError] = useState(false);
 
+  //fetch lsit of categories and priorites from web api
   useEffect(() => {
     axios
       .get("http://localhost:5218/api/Todo/Create-task")
@@ -36,6 +39,8 @@ function CreateEditPage() {
   const categories = createData?.categories || [];
   const priorities = createData?.priorities || [];
 
+
+  //validate form fields if empty
   const handleValidation = () => {
     let flag = false;
 
@@ -70,6 +75,7 @@ function CreateEditPage() {
     return flag;
   };
 
+  //submit button click
   const SubmitButton = async (e) => {
     e.preventDefault();
 
@@ -114,11 +120,13 @@ function CreateEditPage() {
     }
   };
 
+  //handel input box event
   const handleInputChange = (e) => {
     setTaskName(e.target.value);
     setTaskNameError(e.target.value.trim() === "");
   };
 
+  //handel change event
   const handleSelectChange = (e, field) => {
     const value = e.target.value;
 
