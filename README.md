@@ -5,7 +5,7 @@ Entity Framework Core for database operation
 
 ->FrontEnd
 React Js(version:18.3.1)
-Axios for Http requests
+
 
 Prerequisites
 ->Node.js
@@ -17,7 +17,10 @@ Prerequisites
 
 key packages
 Frontend
-->Axios- npm install axios
+->Axios
+->Axios for Http requests
+->React router dom
+->boostrap
 
 ->Backend
 ->dotnet add package Microsoft.EntityFrameworkCore.Design
@@ -49,14 +52,15 @@ npm run dev
 
  2)Restore NuGet packages:
  cmd - dotnet restore
- Install above mentioned backend pacakges
 
  3)Set Up the Connection String in appsettings.json file
 
  4)Apply Migrations
  dotnet ef database update
 
-3)Start the backend server:
+5)cmd - dotnet build
+
+6)Start the backend server:
 cmd - dotnet run
 ->>The backend should now be running at your localhost
 
