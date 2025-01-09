@@ -5,4 +5,4 @@ Database-MS Sql Server
 
 
 
-![image alt](https://github.com/manishapalsam/TODOAPP/blob/6c523efacf77af7e0982109c126a0dfc26fc360f/Screenshot%202025-01-09%20032752.png)
+![image alt](https://github.com/manishapalsam/TODOAPP/blob/61447e9e34ad7a11187204bcdbc0c7826802f1a2/ARCHITECTURE.png)
