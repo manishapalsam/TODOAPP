@@ -1,5 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using ToDoAppBackend.Data;
 
 namespace ToDoAppBackend
@@ -49,7 +50,19 @@ namespace ToDoAppBackend
             app.UseCors("MyTestCORS");//ENABLE CORS
             app.UseAuthorization();
 
-
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                try
+                {
+                    var context = services.GetRequiredService<ToDoDbContext>();
+                    context.Database.Migrate(); // Apply migrations
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error applying migrations: {ex.Message}");
+                }
+            }
             app.MapControllers();
 
             app.Run();

@@ -1,0 +1,27 @@
+
+networks:
+    todoappbackendnetwork:    
+  
+services:
+ ToDoAppDB:
+  container_name: ToDoAppDB
+  image:  mcr.microsoft.com/mssql/server:2022-latest
+  ports:
+  - 8002:1433
+  environment:
+  - ACCEPT_EULA=Y
+  - MSSQL_SA_PASSWORD=Manisha@12345
+  networks:
+  - todoappbackendnetwork
+ todoappbackend:
+    container_name: todoappbackend
+    ports: 
+    - 8001:80
+    image: ${DOCKER_REGISTRY-}todoappbackend
+    build:
+      context: .
+      dockerfile: ToDoAppBackend/Dockerfile
+    depends_on:
+      - ToDoAppDB
+    networks:
+    - todoappbackendnetwork

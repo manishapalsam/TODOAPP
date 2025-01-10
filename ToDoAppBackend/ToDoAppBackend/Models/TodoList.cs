@@ -18,14 +18,14 @@ namespace ToDoAppBackend.Models
 
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
-       // [JsonIgnore]
+      // [JsonIgnore]
         public Category? Category { get; set; }
 
       
         [ForeignKey("Priority")]
         public int PriorityId { get; set; }
 
-       // [JsonIgnore]
+      // [JsonIgnore]
         public Priority? Priority { get; set; }
 
         [Required]

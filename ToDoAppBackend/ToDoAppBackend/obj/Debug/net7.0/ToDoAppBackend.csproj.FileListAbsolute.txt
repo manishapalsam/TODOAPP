@@ -156,8 +156,13 @@ C:\Users\vinay\OneDrive\Desktop\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\De
 C:\Users\vinay\OneDrive\Desktop\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\ToDoAppB.6835B1CC.Up2Date
 C:\Users\vinay\OneDrive\Desktop\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\ToDoAppBackend.genruntimeconfig.cache
 C:\Users\vinay\OneDrive\Desktop\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\ref\ToDoAppBackend.dll
+D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\publish\web.config
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\appsettings.Development.json
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\appsettings.json
+D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\publish\appsettings.Development.json
+D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\publish\appsettings.json
+D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\publish\ToDoAppBackend.deps.json
+D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\publish\ToDoAppBackend.runtimeconfig.json
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\ToDoAppBackend.exe
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\ToDoAppBackend.deps.json
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\bin\Debug\net7.0\ToDoAppBackend.runtimeconfig.json
@@ -221,6 +226,7 @@ D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\ToDoAppBackend.Ass
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\ToDoAppBackend.csproj.CoreCompileInputs.cache
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\ToDoAppBackend.MvcApplicationPartsAssemblyInfo.cs
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\ToDoAppBackend.MvcApplicationPartsAssemblyInfo.cache
+D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\ToDoAppBackend.sourcelink.json
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\staticwebassets.build.json
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\staticwebassets.development.json
 D:\ToDoAppCrud\ToDoAppBackend\ToDoAppBackend\obj\Debug\net7.0\staticwebassets\msbuild.ToDoAppBackend.Microsoft.AspNetCore.StaticWebAssets.props

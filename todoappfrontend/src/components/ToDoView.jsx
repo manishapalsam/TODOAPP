@@ -27,12 +27,13 @@ function ToDoView() {
     const handleDelete = async (id) => {
         try {
             await axios.delete(`http://localhost:5218/api/Todo/${id}`);
-            setFilteredTodos((prevTodos) => prevTodos.filter((item) => item.id !== id));
+            const filtered = todos.filter((item) => item.id !== id);
+            setFilteredTodos(filtered);
             alert("Item deleted successfully");
         } catch (error) {
             alert(
                 error.response?.status
-                    ? `Please try again later ${error.response.data}!`
+                    ? `${error.response.data}!`
                     : `Failed to delete item: ${error.message}!`
             );
         }

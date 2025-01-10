@@ -17,7 +17,7 @@ namespace ToDoAppBackend.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.0")
+                .HasAnnotation("ProductVersion", "7.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -38,6 +38,18 @@ namespace ToDoAppBackend.Migrations
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            CategoryName = "Work"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            CategoryName = "Personal"
+                        });
                 });
 
             modelBuilder.Entity("ToDoAppBackend.Models.Priority", b =>
@@ -56,6 +68,23 @@ namespace ToDoAppBackend.Migrations
                     b.HasKey("PriorityId");
 
                     b.ToTable("Priorities");
+
+                    b.HasData(
+                        new
+                        {
+                            PriorityId = 1,
+                            Level = "High"
+                        },
+                        new
+                        {
+                            PriorityId = 2,
+                            Level = "Medium"
+                        },
+                        new
+                        {
+                            PriorityId = 3,
+                            Level = "Low"
+                        });
                 });
 
             modelBuilder.Entity("ToDoAppBackend.Models.TodoList", b =>
@@ -83,7 +112,7 @@ namespace ToDoAppBackend.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
@@ -97,21 +126,21 @@ namespace ToDoAppBackend.Migrations
 
             modelBuilder.Entity("ToDoAppBackend.Models.TodoList", b =>
                 {
-                    b.HasOne("ToDoAppBackend.Models.Category", "CategoryName")
+                    b.HasOne("ToDoAppBackend.Models.Category", "Category")
                         .WithMany("todoTasks")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ToDoAppBackend.Models.Priority", "Level")
+                    b.HasOne("ToDoAppBackend.Models.Priority", "Priority")
                         .WithMany("TodoLists")
                         .HasForeignKey("PriorityId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("CategoryName");
+                    b.Navigation("Category");
 
-                    b.Navigation("Level");
+                    b.Navigation("Priority");
                 });
 
             modelBuilder.Entity("ToDoAppBackend.Models.Category", b =>
