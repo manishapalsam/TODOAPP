@@ -27,7 +27,11 @@ function ToDoView() {
     const handleDelete = async (id) => {
         try {
             await axios.delete(`http://localhost:5218/api/Todo/${id}`);
+<<<<<<< HEAD
             const filtered = todos.filter((item) => item.id !== id);
+=======
+            const filtered = todos.filter((item) => item.id !== id)
+>>>>>>> 2e0100cf3a8b33c58932e83466075cd99fa01c85
             setFilteredTodos(filtered);
             alert("Item deleted successfully");
         } catch (error) {
