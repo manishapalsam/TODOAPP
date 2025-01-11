@@ -1,3 +1,8 @@
+Overview:
+ToDoApp is built using .Net core web api as backend, MS SQL Server as the database, and React js for frontend.Performed Basic CRUD operation and added functionalities like filtering tasks,categorizing task as work and personal.
+
+
+
 Technologies:
 ->Backend
 ASP Dot Core Web api(7)
@@ -6,12 +11,15 @@ Entity Framework Core for database operation
 ->FrontEnd
 React Js(version:18.3.1)
 
+->Tools:Docker
 
 Prerequisites
 ->Node.js
 ->npm or yarn package manager
+->VS Code
 ->.Net SDK(Microsoft visiual studio)(Version:7)
 ->SQL Server Management System for database
+->Docker Desktop
 
 
 
@@ -29,7 +37,7 @@ Frontend
 ->dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
 
 
-Steps to follow
+Steps to follow to run application locally
 
 1)Clone the Repository to loacl machine
 git clone <repository-url>
@@ -38,10 +46,12 @@ Frontend
 1)Navigate to todoappfrontend folder
 cd todoappfrontend
 
-2)Install dependencies
+2) In config.js file set base url of web api
+
+3)Install dependencies
 npm install
 
-3)start vite devlopment server
+4)start vite devlopment server
 npm run dev
 
 ->>the frontend should now be running at your localhost
@@ -51,18 +61,21 @@ npm run dev
  cd ToDoAppBackend
 
  2)Restore NuGet packages:
- cmd - dotnet restore
+ dotnet restore
 
  3)Set Up the Connection String in appsettings.json file
 
  4)Apply Migrations
  dotnet ef database update
 
-5)cmd - dotnet build
+5)dotnet build
 
 6)Start the backend server:
-cmd - dotnet run
+dotnet run
 ->>The backend should now be running at your localhost
+
+steps to run docker-compose
+docker-compose up --build
 
 
 
